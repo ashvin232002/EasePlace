@@ -1,0 +1,33 @@
+
+.dropdown {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+  }
+  
+  .dropdown:empty {
+    border: none;
+  }
+  
+  .dropdown-row {
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+  }
+  
+  input {
+    width: 220px;
+  }
+  
+  .search-inner {
+    display: flex;
+  }
+  .Sender{
+    background-image: url(/src/images/image_car.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    background-position: center;
+    padding-top: 4rem;
+  }

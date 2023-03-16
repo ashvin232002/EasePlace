@@ -1,0 +1,14 @@
+.show {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transition: all 2 ease;
+  transform: translateY(-20%);
+  transition-delay: 0.2s;
+  }
+  
+.hide {
+  height: 1px;
+  visibility: hidden;
+  opacity: 0;
+}  
